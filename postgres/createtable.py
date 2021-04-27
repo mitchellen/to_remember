@@ -11,3 +11,4 @@ conn.autocommit = True # this gets from having to commit after every action, pro
 cursor = conn.cursor()
 sqlCreateTable = "create table rest_scores (name varchar(128),address text, phone varchar(128),permit varchar(128), score NUMERIC,date date NOT NULL);"
 cursor.execute(sqlCreateTable)
+#
